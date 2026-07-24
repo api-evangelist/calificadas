@@ -1,7 +1,20 @@
 aid: calificadas
 name: Calificadas
-description: Calificadas is a company surfaced as a portfolio company of 500-global and added to the API
-  Evangelist network as a stub for enrichment. This profile is a lead awaiting the enrichment pipeline.
+description: >-
+  Calificadas is a Mexico-based, AI-powered human development company that
+  combines artificial intelligence, strategic consulting, and training to help
+  organizations and teams adapt to rapid change. Its tagline is "human
+  infrastructure for the era of artificial intelligence." Its flagship product,
+  CUALY (cualy.tech), is an AI-native platform for developing human capabilities
+  through diagnosis, personalization, and continuous AI-driven feedback across
+  communication, leadership, and collaboration, using voice and video analysis
+  and AI coaches, plus organizational dashboards and iOS/Android apps. The
+  company also delivers organizational consulting, leadership training, and
+  adaptive training programs, and counts Coca-Cola FEMSA, ManpowerGroup, and
+  Alsea among its clients. Backed by 500 Global, Calificadas was added to the
+  API Evangelist network as a portfolio-lead stub. As of this enrichment pass it
+  publishes no public API, developer portal, or API documentation; artifacts
+  below reflect its public web and domain-security surface only.
 url: https://raw.githubusercontent.com/api-evangelist/calificadas/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -9,11 +22,32 @@ x-backed-by:
 - 500-global
 x-tier: stub
 x-tier-reason: portfolio-lead
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-18'
+image: https://stcalificadasprod.blob.core.windows.net/image-container/PERFIL.png
 tags:
 - Company
+- Artificial Intelligence
+- Human Development
+- Consulting
+- Training
+- Leadership
+- Learning and Development
+- HR Tech
+- Mexico
+- Latin America
 apis: []
 maintainers:
 - FN: Kin Lane
@@ -23,3 +57,27 @@ maintainers:
 common:
 - type: Website
   url: https://calificadas.com
+- type: Product
+  name: CUALY platform
+  url: https://www.cualy.tech
+- type: PrivacyPolicy
+  url: https://www.cualy.tech/privacidad
+- type: TermsOfService
+  url: https://www.cualy.tech/terminos
+- type: iOSApp
+  url: https://apps.apple.com/uy/app/calificadas/id1669241090
+- type: AndroidApp
+  url: https://play.google.com/store/apps/details?id=com.calificadas.app
+- type: LinkedIn
+  url: https://www.linkedin.com/company/calificadas
+- type: Instagram
+  url: https://www.instagram.com/calificadas
+- type: YouTube
+  url: https://www.youtube.com/@calificadas
+- type: DomainSecurity
+  url: security/calificadas-domain-security.yml
+x-enrichment:
+  date: '2026-07-19'
+  status: backfilled
+  pass: local-v1
+  note: backfilled from .gitignore signal + verified work evidence
